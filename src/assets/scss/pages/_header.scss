@@ -1,0 +1,11 @@
+.appHeader {
+    margin: 1rem 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+}

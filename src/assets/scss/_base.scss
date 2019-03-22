@@ -1,0 +1,31 @@
+html {
+    font-size: var(--root-font-size);
+}
+
+body {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Noto Serif', serif;
+}
+
+a {
+    color: #000;
+
+    &:hover {
+        color: rgb(98, 98, 98);
+    }
+}
+
+button {
+    background: transparent;
+    
+    &:focus {
+        outline: 0;
+    }
+}
+
+.appContainer {
+    max-width: 45rem;
+    margin: 0 auto;
+}
